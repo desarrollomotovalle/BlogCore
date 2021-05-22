@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlogCore.Data
+namespace BlogCore.AccesoDatos.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

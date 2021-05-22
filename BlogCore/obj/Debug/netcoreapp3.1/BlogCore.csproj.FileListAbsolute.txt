@@ -429,3 +429,9 @@ E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Cliente\Views\Home\Privacy.cshtml.g.cs
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Cliente\Views\_ViewImports.cshtml.g.cs
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Cliente\Views\_ViewStart.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.dll
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.pdb
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
