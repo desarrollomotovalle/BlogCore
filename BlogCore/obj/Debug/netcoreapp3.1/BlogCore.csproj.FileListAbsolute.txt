@@ -435,3 +435,4 @@ E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Uti
 E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.pdb
 E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
 E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categorias\Index.cshtml.g.cs
