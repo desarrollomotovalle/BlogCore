@@ -28,9 +28,9 @@ namespace BlogCore.Models
         public string UrlImagen { get; set; }
 
         [Required]
-        public int categoriaId { get; set; }
+        public int CategoriaId { get; set; }
 
-        [ForeignKey("categoriaId")]
+        [ForeignKey("CategoriaId")]
         public Categoria Categoria { get; set; }
     }
 }

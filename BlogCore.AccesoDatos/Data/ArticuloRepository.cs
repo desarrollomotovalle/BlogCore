@@ -23,7 +23,7 @@ namespace BlogCore.AccesoDatos.Data
             objDesdeDb.Nombre = articulo.Nombre;
             objDesdeDb.Descripcion = articulo.Descripcion;
             objDesdeDb.UrlImagen = articulo.UrlImagen;
-            objDesdeDb.categoriaId = articulo.categoriaId;
+            objDesdeDb.CategoriaId = articulo.CategoriaId;
             //El guardar se realizará desde el controlador
             //_db.SaveChanges();
         }

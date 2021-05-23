@@ -17,8 +17,16 @@ namespace BlogCore.Areas.Admin.Controllers
         {
             _contenedorTrabajo = contenedorTrabajo;
         }
+
+        [HttpGet]
          public IActionResult Index()
          {
+            return View();
+         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
             ArticuloVM articulovm = new ArticuloVM()
             {
                 Articulo = new Models.Articulo(),
@@ -26,7 +34,7 @@ namespace BlogCore.Areas.Admin.Controllers
             };
 
             return View(articulovm);
-         }
+        }
 
         #region Llamadas a las API
         [HttpGet]
