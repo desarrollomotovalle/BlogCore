@@ -15,7 +15,11 @@ namespace BlogCore.Models
         [Display(Name = "Nombre del articulo")]
         public string Nombre { get; set; }
 
-        
+        [Required(ErrorMessage = "El campo descripción es requerido")]
+        [Display(Name = "Nombre de la descripción")]
+        public string Descripcion { get; set; }
+
+
         [Display(Name = "Fecha de creación")]
         public string FechaCracion { get; set; }
 
