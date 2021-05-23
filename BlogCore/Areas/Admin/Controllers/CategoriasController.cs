@@ -1,4 +1,5 @@
 ﻿using BlogCore.AccesoDatos.Data.Repository;
+using BlogCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,31 @@ namespace BlogCore.Areas.Admin.Controllers
             _contenedorTrabajo = contenedorTrabajo;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Categoria categoria)
+        {
+            if (ModelState.IsValid)
+            {
+                _contenedorTrabajo.Categoria.Add(categoria);
+                _contenedorTrabajo.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(categoria);
+        }
+
 
         #region Llamadas a las API
         [HttpGet]

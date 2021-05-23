@@ -436,3 +436,5 @@ E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Acc
 E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
 E:\Desarrollos Personales\BlogCore\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categorias\Index.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categorias\Create.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_VistaCrearVolver.cshtml.g.cs
