@@ -1,14 +1,16 @@
 ﻿@model BlogCore.Models.ViewModels.ArticuloVM
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Editar Articulo";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h3 class="text-center"> Crear un nuevo artículo</h3>
-<form method="post" asp-action="Create" enctype="multipart/form-data"> @* Para subida de archivos *@
+<h3 class="text-center"> Editar artículo</h3>
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+    @* Para subida de archivos *@
+    <input type="hidden" asp-for="Articulo.Id" />
     <div class="row px-2 mx-2 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="col-10 offset-1 mt-4">
+        <div class="col-8 mt-4">
 
             <div class="form-group row">
                 <div class="col-4 mt-2">
@@ -35,8 +37,8 @@
                     <label asp-for="Articulo.CategoriaId"></label>
                 </div>
                 <div class="col-8 mt-2">
-                    @Html.DropDownListFor(m=>m.Articulo.CategoriaId, Model.ListaCategorias,
-                   "-Por favor selecciones una categoría-", new {@class="form-control"})                    
+                    @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias,
+                   "-Por favor selecciones una categoría-", new { @class = "form-control" })
                 </div>
             </div>
 
@@ -45,20 +47,32 @@
                     <label asp-for="Articulo.UrlImagen"></label>
                 </div>
                 <div class="col-8 mt-2">
-                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />                    
+                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
                 </div>
             </div>
 
             <div class="form-group row">
                 <div class="col-8 offset-4 mt-2">
-                    <partial name="_VistaCrearVolver" />
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary form-control" asp-route-id="@Model.Articulo.Id"><i class="fas fa-edit"></i> Actualizar</button>
+
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-success form-control"><i class="fas fa-reply-all"></i> Volver a vista</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+        </div>
+        <div class="col-4 pt-3">
+            <img src="@Model.Articulo.UrlImagen" width="100%" style="border-radius:5px; border:1px solid #bbb9b9;" />
         </div>
     </div>
 </form>
 
-@section Scripts{ 
+@section Scripts{
     <script src="https://cdn.tiny.cloud/1/bd6kcef55vg5cp3du45hm6rhyl75ac2860vwg7jo6jsate23/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         tinymce.init({
@@ -69,4 +83,3 @@
     </script>
 }
 
-    

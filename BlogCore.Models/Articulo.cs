@@ -21,7 +21,7 @@ namespace BlogCore.Models
 
 
         [Display(Name = "Fecha de creación")]
-        public string FechaCracion { get; set; }
+        public string FechaCreacion { get; set; }
 
         [DataType(DataType.ImageUrl)]
         [Display(Name = "Imagen")]
