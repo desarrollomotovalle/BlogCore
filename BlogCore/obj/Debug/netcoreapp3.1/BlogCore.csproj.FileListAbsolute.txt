@@ -442,3 +442,6 @@ E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Articulos\Index.cshtml.g.cs
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Articulos\Create.cshtml.g.cs
 E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Articulos\Edit.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Index.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Create.cshtml.g.cs
+E:\Desarrollos Personales\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Edit.cshtml.g.cs
