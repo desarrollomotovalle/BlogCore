@@ -46,7 +46,7 @@
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
